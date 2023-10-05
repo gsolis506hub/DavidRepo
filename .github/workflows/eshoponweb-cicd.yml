@@ -10,8 +10,7 @@ env:
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 0e2d5a9c-79e0-49f9-a58b-addf093bc5ad
   WEBAPP-NAME: az400-webapp-gsolis
-
-
+  
 jobs:
   #Build, test and publish .net web project in repository
   buildandtest:
